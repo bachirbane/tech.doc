@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link href="./output.css" rel="stylesheet">
+  <title>Tech.Care – Patients</title>
+</head>
+
+
+<body class="bg-gray-50">
+  
+
+    <!-- header -->
+
+  <header class=" bg-white m-4   rounded-3xl">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <!-- Logo  -->
+      <div class="">
+        
+        <img src="./img/logo.png" alt="">
+      </div>
+
+      <!-- Nav -->
+      <nav class="hidden md:flex items-center gap-2 text-sm">
+        <a class="px-3 py-2 rounded-md hover:bg-green-100" href="#">Overview</a>
+        <a class="px-3 py-2 rounded-md hover:bg-green-100" href="#">Patients</a>
+        <a class="px-3 py-2 rounded-md hover:bg-green-100" href="#">Schedule</a>
+        <a class="px-3 py-2 rounded-md hover:bg-green-100" href="#">Messages</a>
+        <a class="px-3 py-2 rounded-md hover:bg-green-100" href="#">Transactions</a>
+      </nav>
+
+      <!-- Profil médecin -->
+      <div class="flex items-center gap-3">
+  <!-- Photo -->
+  <img src="./img/nav.png" alt="Dr. Jose Simmons" class="h-9 w-9 rounded-full object-cover">
+
+  <!-- Infos -->
+  <div class="leading-4">
+    <!-- Nom du docteur -->
+    <p class="text-sm font-medium">Dr. Jose Simmons</p>
+
+    <!-- Fonction + icône -->
+    <div class="flex items-center gap-1 text-xs text-slate-500">
+      <p>General Practitioner</p>
+     <p><img src="./img/icon.png" alt="icon" ></p>
+    </div>
+ 
+  </div>
+</div>
+
+    </div>
+  </header>
+
+  <!-- aside -->
+  <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 grid gap-6
+                lg:grid-cols-[320px_minmax(0,1fr)_360px]">
+    
+    <aside class="bg-white rounded-2xl border border-slate-200 p-4 ">
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl font-semibold">Patients</h2>
+        <button class="p-2 rounded-md hover:bg-slate-100" aria-label="Search">
+          
+        </button>
+      </div>
+
+      
+      <ul class="mt-4 space-y-2 max-h-[680px] overflow-auto pr-1">
+          
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/emily.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">Emily Williams</p>
+            <p class="text-xs text-slate-500">Female, 18</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+              <circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </li>
+
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/ryan.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">Ryan Johnson</p>
+            <p class="text-xs text-slate-500">Male, 45</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+              <circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/brandon.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">Brandon Mitchell</p>
+            <p class="text-xs text-slate-500">Male, 45</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+              <circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </li>
+
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/kesica.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">jessica Taylor</p>
+            <p class="text-xs text-slate-500">Male, 45</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+              <circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </li>
+        
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/samantha.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">samantha Johnson</p>
+            <p class="text-xs text-slate-500">Female, 56</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+              <circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </li>
+
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/ashley.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">ashley Martinez </p>
+            <p class="text-xs text-slate-500">Femal, 54</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+              <circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </li>
+
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/olivia.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">Olivia Brown </p>
+            <p class="text-xs text-slate-500">Femal, 32</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+              <circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </li>
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/talord.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">Taylor Davis </p>
+            <p class="text-xs text-slate-500">Male, 19</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+              <circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </li>
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/kevin.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">Kavin Anderson </p>
+            <p class="text-xs text-slate-500">Male, 30</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+              <circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </li>
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/daylan.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">Daylan Thompson </p>
+            <p class="text-xs text-slate-500">Male, 36</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor">
+              <circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </li>
+        <li class="flex items-center gap-3 p-2 rounded-xl hover:hover:bg-green-100">
+          <img src="./img/mike.png" alt="" class="h-10 w-10 rounded-full object-cover">
+          <div class="flex-1">
+            <p class="text-sm font-medium">Mike Nolan </p>
+            <p class="text-xs text-slate-500">Male, 31</p>
+          </div>
+          <button class="p-2 rounded-md hover:bg-slate-100" aria-label="More">
+            
+          </button>
+        </li>
+      </ul>
+    </aside>
+
+   
+    <section class="space-y-6">
+      
+      <div class="bg-white rounded-2xl border  p-4">
+        <div class="flex items-center justify-between">
+          <h3 class="text-xl font-semibold">Diagnosis History</h3>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="text-slate-500">Last 6 months</span>
+            <div class="flex items-center gap-4">
+              <span class="inline-flex items-center gap-1">
+                <span class="h-2 w-2 rounded-full bg-purple-500"></span><span class="text-xs">Systolic</span>
+              </span>
+              <span class="inline-flex items-center gap-1">
+                <span class="h-2 w-2 rounded-full bg-indigo-500"></span><span class="text-xs">Diastolic</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+       
+        
+        <div class="mt-4 grid grid-cols-2 gap-4 sm:max-w-sm">
+          <div class="p-3 rounded-xl bg-purple-50 border border-purple-100">
+            <p class="text-xs text-slate-500">Systolic</p>
+            <p class="text-2xl font-semibold text-purple-700">160</p>
+            <p class="text-xs text-slate-500">Higher than Average</p>
+          </div>
+          <div class="p-3 rounded-xl bg-indigo-50 border border-indigo-100">
+            <p class="text-xs text-slate-500">Diastolic</p>
+            <p class="text-2xl font-semibold text-indigo-700">78</p>
+            <p class="text-xs text-slate-500">Lower than Average</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="grid sm:grid-cols-3 gap-4">
+        
+        <div class="bg-white rounded-2xl border border-slate-200 p-4">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-xl grid place-items-center">
+              <img src="./img/bpm.png" alt="">
+            </div>
+            <div>
+                
+              <p class="text-sm text-slate-500">Respiratory Rate</p>
+              <p class="text-xl font-semibold">20 <span class="text-base font-normal text-slate-500">bpm</span></p>
+              <p class="text-xs text-emerald-600">Normal</p>
+            </div>
+          </div>
+        </div>
+        <!-- Temperature -->
+        <div class=" rounded-2xl border border-slate-200 p-4 bg-pink-100">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-xl">
+            <img  class="bg-white rounded-3xl " src="./img/red.png" alt="">
+            </div>
+            <div>
+              <p class="text-sm text-slate-500">Temperature</p>
+              <p class="text-xl font-semibold">98.6<span class="align-top text-sm">°F</span></p>
+              <p class="text-xs text-emerald-600">Normal</p>
+            </div>
+          </div>
+        </div>
+        <!-- Heart Rate -->
+       <div class=" rounded-2xl border border-slate-200 p-4 bg-pink-100">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-xl ">
+            <img src="./img/h.png" alt="">
+            </div>
+            <div>
+              <p class="text-sm text-gray-100">Heart Rate</p>
+              <p class="text-xl font-semibold">78 <span class="text-base font-normal text-slate-500">bpm</span></p>
+              <p class="text-xs text-slate-500">Lower than Average</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bas : Diagnostic list + Lab Results -->
+      <div class="mx-auto max-w-7xl px-4"></div>
+        <!-- Diagnostic list -->
+        <div class="lg:col-span-2 bg-white rounded-2xl border p-4">
+          <h4 class="text-lg font-semibold">Diagnostic List</h4>
+          <div class="mt-3 overflow-x-auto">
+            <table class="min-w-full text-sm">
+              <thead class="text-left text-slate-500">
+                <tr>
+                  <th class="py-2 pr-4">Problem/Diagnosis</th>
+                  <th class="py-2 pr-4">Description</th>
+                  <th class="py-2">Status</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100">
+                <tr>
+                  <td class="py-3 pr-4 font-medium">Hypertension</td>
+                  <td class="py-3 pr-4">Chronic high blood pressure</td>
+                  <td class="py-3">
+                    <span class="px-2 py-1 rounded-lg bg-amber-100 text-amber-700">Under Observation</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-3 pr-4 font-medium">Type 2 Diabetes</td>
+                  <td class="py-3 pr-4">Insulin resistance, elevated blood sugar</td>
+                  <td class="py-3">
+                    <span class="px-2 py-1 rounded-lg bg-emerald-100 text-emerald-700">Cured</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-3 pr-4 font-medium">Asthma</td>
+                  <td class="py-3 pr-4">Recurrent episodes of bronchial constriction</td>
+                  <td class="py-3">
+                    <span class="px-2 py-1 rounded-lg bg-slate-100 text-slate-700">Inactive</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+</section>
+
+    <!-- ===== Colonne droite : Profil patient ===== -->
+    <aside class="bg-white rounded-2xl border p-10">
+      <div class="grid place-items-center">
+        <img src="./img/kesica.png" alt="Jessica Taylor" class="h-32 w-32 rounded-full object-cover">
+        <h3 class="mt-3 text-xl font-semibold">Jessica Taylor</h3>
+      </div>
+
+      <dl class="mt-6 space-y-4 text-sm">
+        <div class="flex items-start gap-3">
+          <span class="mt-1 h-5 w-5 text-slate-500">
+<img src="./img/date.png" alt="">
+          </span>
+          <div>
+            <dt class="text-slate-500">Date of Birth</dt>
+            <dd class="font-medium">August 23, 1996</dd>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3">
+          <span class="mt-1 h-5 w-5 text-slate-500">
+           <img src="./img/g.png" alt="">
+          </span>
+          <div>
+            <dt class="text-slate-500">Gender</dt>
+            <dd class="font-medium">Female</dd>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3">
+          <span class="mt-1 h-5 w-5 text-slate-500">
+          <img src="./img/phone.png" alt="">
+          </span>
+          <div>
+            <dt class="text-slate-500">Contact info</dt>
+            <dd class="font-medium">(415) 555-1234</dd>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3">
+          <span class="mt-1 h-5 w-5 text-slate-500">
+            <img src="./img/phone.png" alt="">
+          </span>
+          <div>
+            <dt class="text-slate-500">Emergency Contacts</dt>
+            <dd class="font-medium">(415) 555-5678</dd>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3">
+          <span class="mt-1 h-5 w-5 text-slate-500">
+           <img src="./img/emergency.png" alt="">
+          </span>
+          <div>
+            <dt class="text-slate-500">Insurance Provider</dt>
+            <dd class="font-medium">Sunrise Health Assurance</dd>
+          </div>
+        </div>
+      </dl>
+
+       <!-- Lab results -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-4 m-10 max-auto ">
+          <h4 class="text-lg font-semibold">Lab Results</h4>
+          <ul class="mt-3 space-y-3 text-sm">
+            <li class="flex items-center justify-between">
+              <span class="text-slate-600">Blood Tests</span>
+              <button class="inline-flex items-center gap-1 px-2 py-1 rounded-lg  hover:bg-gray-200">
+                <img src="./img/icon1.png" alt="">
+                View
+              </button>
+            </li>
+            <li class="flex items-center justify-between">
+              <span class="text-slate-600">CT Scans</span>
+              <button class="inline-flex items-center gap-1 px-2 py-1 rounded-lg  hover:bg-gray-200"> <img src="./img/icon1.png" alt="">
+                View</button>
+            </li>
+            <li class="flex items-center justify-between">
+              <span class="text-slate-600">Radiology Reports</span>
+              <button class="inline-flex items-center gap-1 px-2 py-1 rounded-lg  hover:bg-slate-200">View</button>
+            </li>
+            <li class="flex items-center justify-between">
+              <span class="text-slate-600">Urine Test</span>
+              <button class="inline-flex items-center gap-1 px-2 py-1 rounded-lg  hover:bg-gray-200">
+                <img src="./img/icon1.png" alt="">View</button>
+            </li>
+          </ul>
+          <button class="mt-4 w-full rounded-xl bg-green-500 text-white py-2.5 hover:bg-green-900">
+            Show all information
+          </button>
+        </div>
+      </div>
+    
+    </aside>
+    
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-xs text-slate-500">
+    <p><span class="font-semibold">BANEDEV </span>  2025 - Built with passion   </p>
+
+  </footer>
+</body>
+</html>
